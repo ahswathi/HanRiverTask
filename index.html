@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <script>
+   var tabs = document.getElementsByClassName('Tab');
+
+Array.prototype.forEach.call(tabs, function(tab) {
+	tab.addEventListener('click', setActiveClass);
+});
+
+function setActiveClass(evt) {
+	Array.prototype.forEach.call(tabs, function(tab) {
+		tab.classList.remove('active');
+	});
+	
+	evt.currentTarget.classList.add('active');
+}
+    </script>
+  <body>
+     <!-- Panel section-->
+    <div class="Panel">
+      <nav>
+            <ul class="Tabs">
+              <li class="Tabs__tab active Tab"><a href="#">Centerfield 
+                Introduction</a></li>
+                      <li class="Tabs__tab Tab"><a href="#">Centerfield 
+                Concept & Features </a></li>
+                      <li class="Tabs__tab Tab"><a href="#">Centerfield  
+                Building Spec</a></li>
+                <li class="Tabs__tab Tab"><a href="#">Green Building LEED Gold Certification 
+                            </a></li>
+              <li class="Tabs__presentation-slider" role="presentation"></li>
+            </ul>
+      </nav>
+      <div class="Panel__body">
+        <p>VIEW MORE >> </p>
+      </div>
+  </div>
+    <!-- slider section-->
+    <div class="slider">
+            <div class="centerfield ">
+          <img src="./images/Vector.png"  width="68" height="52">
+          <div class="centerfield-name">
+            <img src="./images/centerfield-name.png" width="280" height="30">
+          </div>
+          <p> Centerfiel provides the best services and pride. As Korea’s number one prime office building.</p>
+      </div>
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <!-- header section-->
+    <div class="header">
+      <img src="./images/centerfield-name.png" width="180" height="15">
+      <div class="header-nav">
+        <a href="">센터필드</a> |
+        <a href="">임대</a>|
+      </div> 
+    </div>
+        <img src="images/banner.jpg" class="slide" width="1200" height="500" />
+        <img src="images/2.jpg" class="slide" width="1200" height="500" />
+        <img src="images/3.jpg" class="slide" width="1200" height="500" />
+       
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+   
+ <!-- services section-->
+      <div class="services">
+        <div class="service-img-l">
+          <img src="images/service-img-l.jpg" width="180" height="160">
+        </div>
+        <div class="service-content">
+          <div class="subservice-content">
+            <p class="subtitle"><span>Centerfield </span> provides convient and diverse </p>
+              <span class="best">Services with the best facility.</span>
+              <p>Always ready to serve. 
+                Centerfield provides the best services alongside with its
+                top-notch facilities that is available for every customer.  </p>
+          </div>      
+            <div class="service-img-s">
+                <div class="img-s1">
+                  <img src="./images/Conference.png"  width="180" height="160">
+                  <p class="subtitle">Conference Hall</p>
+                  <a href="#">VIEW MORE  ></a>
+                </div>
+                <div class="img-s2">
+                  <img src="./images/Ev.png"  width="180" height="160">
+                  <p class="subtitle">EV-charger</p>
+                  <a href="#">VIEW MORE  ></a>
+                </div>
+                <div class="img-s3">
+                  <img src="./images/Conference.png"  width="180" height="160">
+                  <p class="subtitle">Amenity Lounge</p>
+                  <a href="#">VIEW MORE  ></a>
+                </div>
+            </div>
+        </div>
+      </div> 
+
+  <!-- inquiry  section-->        
+<div class="inquiry">
+  <img src="images/enquiry.png"  width="1200" height="600">
+    <div class="inquiry-content">
+      <p class="title">Rental inquiry & Information</p>
+      <p>A super complex  in Gangnam area that provides highest level of work environment.
+          Consists of various offices and retail, including a 5-star Chosun Palace Hotel 
+          and variety of convenient  facilities for tenants.
+      </p>
+    </div>
+    <div class="inquiry-box">
+      <div class="box1">
+       <!--  <i class="fa-solid fa-magnifying-glass"></i> -->
+       <img src="./images/Group 4631.png">
+        <p class="subtitle">Rental Inquiry</p>
+        <p>Ask without registration. Rental inquiry is few clicks away.</p>
+      </div>
+      <div class="box2">
+        <img src="./images/Group 4646.png">
+        <p class="subtitle">Rental Info</p>
+        <p>A Super complex with the Newest offices and Retail, 
+          5 Star Palace Hotel, and more!.</p>
+
+      </div>
+      <div class="box3">
+        <img src="./images/Group.png">
+        <p class="subtitle">Retail</p>
+        <p>An exciting new experience
+          apart from your everyday life. 
+          ONE and ONLY RENAISSANCE PARC.</p>
+
+      </div>
+    </div>
+</div> 
+
+
+    <!-- Location  section-->   
+   <div class="location">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d202504.32626610494!2d126.66940622499993!3d37.5284304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shan%20river%20korea%20map!5e0!3m2!1sen!2sin!4v1668867544008!5m2!1sen!2sin" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="address">
+        <p><span>Centerfield</span> Location</p>
+        <ul>
+          <p class="title">Address</p>
+          <li> 
+            <p>237 Teheran-ro, Yeoksam-dong Gangnam-gu, Seoul (Centerfield)</p>
+          </li>
+          <p class="title">Contact</p>
+          <li> 
+            <p>02-6985-7100 / 09:00~18:00 (월~금)</p>
+          </li>
+          <p class="title">Parking </p>
+          <li> 
+            <p>Tower West -B2F~B6F /  Tower East - B3F~B6F 24 Hours</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+     <!-- Footer  section-->  
+    <div class="footer">
+      <div class="footer-nav">
+        <a href="">About</a> |
+        <a href="">Leasing</a>|
+        <a href="">Policy</a>|
+        <a href="">Privacy</a>
+        <span>한국어(Korean)</span>
+      </div> 
+      
+      <div class="footer-content">
+         <p><span> 237 Teheran-ro, Yeoksam-dong Gangnam-gu, Seoul (Centerfield)</p>
+          <p>Tel : +82-2-6456-0100   I    E-mail : admin@centerfield.com</p> 
+          <p>Copyright (c) CENTERFIELD(주) All Rights Reserved. </p>
+         
+      </div>
+    </div>  
+
+   
+ </body>
+</html>
