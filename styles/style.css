@@ -6,12 +6,12 @@ $heading : 40px;
 
 
 $subFont: Inter; */
-.body {
+body {
   width: 1200px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   position: relative;
 }
 
@@ -98,7 +98,7 @@ $subFont: Inter; */
   height: 10px;
   width: 10px;
   border-radius: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   background-color: #E4E4E1;
 }
 
@@ -176,18 +176,20 @@ $subFont: Inter; */
 }
 
 .service-img-s {
-  width: 100%;
+  width: 800px;
   height: 454.14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 180px 0  100px 180px;
   position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .service-img-s .img-s1 {
-  width: 180px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   padding-top: 40px;
 }
 
@@ -197,8 +199,8 @@ $subFont: Inter; */
 }
 
 .service-img-s .img-s3 {
-  width: 180px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   padding-top: 40px;
 }
 
@@ -208,8 +210,8 @@ $subFont: Inter; */
 }
 
 .service-img-s .img-s2 {
-  width: 180px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   margin: 0 30px 0 30px;
 }
 
@@ -219,7 +221,7 @@ $subFont: Inter; */
 }
 
 .service-img-s p {
-  color: #999999;
+  color: #BEBFBB;
   font-family: Inter;
   font-size: 20px;
   padding-left: 20px;
@@ -228,7 +230,7 @@ $subFont: Inter; */
 }
 
 .service-img-s a {
-  color: #999999;
+  color: #BEBFBB;
   font-family: Inter;
   font-size: 10px;
   padding-left: 20px;
@@ -268,14 +270,14 @@ $subFont: Inter; */
 }
 
 .inquiry-box {
-  width: 800px;
+  width: 1000px;
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   top: 280px;
-  margin: 0 200px 0 200px;
+  margin: 0 220px 0 160px;
 }
 
 .inquiry-box .subtitle {
@@ -289,14 +291,14 @@ $subFont: Inter; */
 .inquiry-box p {
   font-family: Noto Sans KR;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   color: #999999;
   padding: 0 38px 0 38px;
   margin: 6px 0 6px 0;
 }
 
 .box1 {
-  width: 256.78px;
+  width: 270px;
   height: 240px;
   opacity: 0.9;
   text-align: center;
@@ -311,7 +313,7 @@ $subFont: Inter; */
 }
 
 .box2 {
-  width: 256.78px;
+  width: 270px;
   height: 240px;
   opacity: 0.9;
   text-align: center;
@@ -326,7 +328,7 @@ $subFont: Inter; */
 }
 
 .box3 {
-  width: 256.78px;
+  width: 270px;
   height: 240px;
   opacity: 0.9;
   text-align: center;
@@ -334,7 +336,7 @@ $subFont: Inter; */
   padding-top: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 20px 20px 0 0;
+  margin: 20px 20px 0 20px;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #D3B25B;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #D3B25B;
   opacity: 0.9;
@@ -393,7 +395,7 @@ $subFont: Inter; */
   font-family: Noto Sans KR;
   font-weight: 400;
   font-size: 14px;
-  color: #FBFAF7;
+  color: #999999;
   padding-bottom: 20px;
 }
 
@@ -465,6 +467,7 @@ $subFont: Inter; */
   padding-right: 15px;
   padding-left: 15px;
   color: #999999;
+  text-decoration: none;
 }
 
 .footer-nav span {
