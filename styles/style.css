@@ -275,7 +275,7 @@ body {
   display: flex;
   position: absolute;
   top: 280px;
-  margin: 0 220px 0 160px;
+  margin: 0 160px 0 220px;
 }
 
 .inquiry-box .subtitle {
