@@ -51,47 +51,9 @@
 
 /* *****************Slider section************* */
 
-/* #slider{
-	overflow: hidden;
-}
 
-#slider figure{
-  position: relative;
-  width: 400%;
-  margin: 0;
-  left: 0;
-  animation: 20s slider infinite;
 
-}
-#slider figure img{
-  width: 25%;
-  float: left;
-}
-
-@keyframes slider{
-  0%{
-    left: 0%;
-  }
-  25%{
-    left: 0%;
-  }
-  30%{
-    left: -100%;
-  }
-  55%{
-    left: -100%;
-  }
-  60%{
-    left: -200%;
-  }
-  85%{
-    left: 0%;
-  }
-  90%{
-    left: 0%;
-  }
-} */
- .slider .centerfield img {
+.slider .centerfield img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -122,21 +84,20 @@
   z-index: 1;
 }
 .slider {
-  width: 1200px;
+  width: 1400px;
   height: 600px;
   background-color: yellow;
   overflow: hidden;
   position: relative;
 }
 .image-container {
-  width: 3600px;
+  width: 4200px;
   background-color: pink;
   height: 600px;
   clear: both;
   position: relative;
   -webkit-transition: left 2s;
   transition: left 2s;
-  
 }
 
 .slide {
@@ -151,19 +112,19 @@
 }
 
 #slide-2:target ~ .image-container {
-  left: -1200px;
+  left: -1400px;
 }
 
 #slide-3:target ~ .image-container {
-  left: -2400px;
-} 
+  left: -2800px;
+}
 
 .buttons {
   height: 10px;
   width: 10px;
   position: relative;
   top: -380px;
-  right: -1140px;
+  right: -1240px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -291,7 +252,6 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  overflow: hidden;
 }
 
 .service-img-l {
@@ -357,7 +317,6 @@
   z-index: 2;
   top: 240px;
   left: -30px;
-  
  /*  box-sizing: border-box; */
 }
 
@@ -541,7 +500,7 @@
 .location .map {
   width: 50%;
   height: 450px;
-  padding-left: 140px;
+  margin-left: 140px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -603,7 +562,7 @@
 }
 
 .footer .footer-content {
-  width: 30%;
+  width: 80%;
   height: 100px;
   font-family: Noto Sans KR;
   font-style: normal;
@@ -611,8 +570,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #999999;
-  padding-left: 15%;
-  padding-right: 45%;
+  padding-left: 240px;
   padding-top: 40px;
 }
 
@@ -637,9 +595,4 @@
 .footer-nav span {
   padding-left: 400px;
   color: #999999;
-}
-
-
-@media (max-width: 920px){
-
 }
